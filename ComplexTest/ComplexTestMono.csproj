@@ -35,10 +35,13 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\ComplexNumber\ComplexNumberMono.csproj">
       <Project>{91D6A700-4CF8-4725-8ED3-75B802E02826}</Project>
       <Name>ComplexNumberMono</Name>
     </ProjectReference>
   </ItemGroup>
+=======
+>>>>>>> b40290f241921e12e46ea946a670037828a05105
 </Project>
