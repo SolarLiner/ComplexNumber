@@ -9,20 +9,6 @@ namespace SolarLiner.ComplexNumber
 {
     public static class ComplexMath
     {
-        public static Complex Pow(Complex val, int pow)
-        {
-            if (pow < 0) return 1.0 / Pow(val, -pow);
-            else if (pow == 0) return 1.0;
-
-            Complex res = val;
-            for(int i=1; i<pow; i++)
-            {
-                res *= val;
-            }
-
-            return res;
-        }
-
         static public Complex Exp(Complex val)
         {
             return Math.Exp(val.Real) *
