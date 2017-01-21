@@ -1,0 +1,60 @@
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Namespace Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Solar\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Liner Namespace Reference}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Solar\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Liner.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Number Namespace Reference}{7}{section.4.2}
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Solar\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Liner.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Number.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex Struct Reference}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{11}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Member Enumeration Documentation}{11}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Style}{11}{subsubsection.5.1.2.1}
+\contentsline {subsection}{\numberline {5.1.3}Constructor \& Destructor Documentation}{11}{subsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.3.1}Complex(double a, double b, bool is\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Trigonometric=false)}{11}{subsubsection.5.1.3.1}
+\contentsline {subsubsection}{\numberline {5.1.3.2}Complex(double theta)}{11}{subsubsection.5.1.3.2}
+\contentsline {subsubsection}{\numberline {5.1.3.3}Complex(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}F point)}{11}{subsubsection.5.1.3.3}
+\contentsline {subsection}{\numberline {5.1.4}Member Function Documentation}{12}{subsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.4.1}Equals(object obj)}{12}{subsubsection.5.1.4.1}
+\contentsline {subsubsection}{\numberline {5.1.4.2}Get\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Hash\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Code()}{12}{subsubsection.5.1.4.2}
+\contentsline {subsubsection}{\numberline {5.1.4.3}operator Complex(double value)}{12}{subsubsection.5.1.4.3}
+\contentsline {subsubsection}{\numberline {5.1.4.4}operator double(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex val)}{12}{subsubsection.5.1.4.4}
+\contentsline {subsubsection}{\numberline {5.1.4.5}operator int(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex val)}{12}{subsubsection.5.1.4.5}
+\contentsline {subsubsection}{\numberline {5.1.4.6}operator"!=(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, Complex b)}{12}{subsubsection.5.1.4.6}
+\contentsline {subsubsection}{\numberline {5.1.4.7}operator"!=(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, object b)}{12}{subsubsection.5.1.4.7}
+\contentsline {subsubsection}{\numberline {5.1.4.8}operator"!=(object a, Complex b)}{12}{subsubsection.5.1.4.8}
+\contentsline {subsubsection}{\numberline {5.1.4.9}operator$\ast $(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, double b)}{12}{subsubsection.5.1.4.9}
+\contentsline {subsubsection}{\numberline {5.1.4.10}operator$\ast $(double a, Complex b)}{13}{subsubsection.5.1.4.10}
+\contentsline {subsubsection}{\numberline {5.1.4.11}operator$\ast $(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, Complex b)}{13}{subsubsection.5.1.4.11}
+\contentsline {subsubsection}{\numberline {5.1.4.12}operator+(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, Complex b)}{13}{subsubsection.5.1.4.12}
+\contentsline {subsubsection}{\numberline {5.1.4.13}operator+(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, double b)}{13}{subsubsection.5.1.4.13}
+\contentsline {subsubsection}{\numberline {5.1.4.14}operator-\/(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a)}{13}{subsubsection.5.1.4.14}
+\contentsline {subsubsection}{\numberline {5.1.4.15}operator-\/(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, double b)}{13}{subsubsection.5.1.4.15}
+\contentsline {subsubsection}{\numberline {5.1.4.16}operator-\/(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, Complex b)}{13}{subsubsection.5.1.4.16}
+\contentsline {subsubsection}{\numberline {5.1.4.17}operator/(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, Complex b)}{13}{subsubsection.5.1.4.17}
+\contentsline {subsubsection}{\numberline {5.1.4.18}operator/(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, double b)}{13}{subsubsection.5.1.4.18}
+\contentsline {subsubsection}{\numberline {5.1.4.19}operator/(double a, Complex b)}{13}{subsubsection.5.1.4.19}
+\contentsline {subsubsection}{\numberline {5.1.4.20}operator==(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, Complex b)}{13}{subsubsection.5.1.4.20}
+\contentsline {subsubsection}{\numberline {5.1.4.21}operator==(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex a, object b)}{13}{subsubsection.5.1.4.21}
+\contentsline {subsubsection}{\numberline {5.1.4.22}operator==(object a, Complex b)}{13}{subsubsection.5.1.4.22}
+\contentsline {subsubsection}{\numberline {5.1.4.23}Set\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}R\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Theta(double r, double theta)}{13}{subsubsection.5.1.4.23}
+\contentsline {subsubsection}{\numberline {5.1.4.24}To\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Point()}{14}{subsubsection.5.1.4.24}
+\contentsline {subsubsection}{\numberline {5.1.4.25}To\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}String()}{14}{subsubsection.5.1.4.25}
+\contentsline {subsubsection}{\numberline {5.1.4.26}To\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}String(\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Style Style)}{14}{subsubsection.5.1.4.26}
+\contentsline {subsection}{\numberline {5.1.5}Member Data Documentation}{14}{subsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.5.1}Epsilon}{14}{subsubsection.5.1.5.1}
+\contentsline {subsubsection}{\numberline {5.1.5.2}I}{14}{subsubsection.5.1.5.2}
+\contentsline {subsection}{\numberline {5.1.6}Property Documentation}{14}{subsection.5.1.6}
+\contentsline {subsubsection}{\numberline {5.1.6.1}Conjugate}{14}{subsubsection.5.1.6.1}
+\contentsline {subsubsection}{\numberline {5.1.6.2}Imaginary}{15}{subsubsection.5.1.6.2}
+\contentsline {subsubsection}{\numberline {5.1.6.3}Is\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Imaginary}{15}{subsubsection.5.1.6.3}
+\contentsline {subsubsection}{\numberline {5.1.6.4}Is\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Real}{15}{subsubsection.5.1.6.4}
+\contentsline {subsubsection}{\numberline {5.1.6.5}Normalized}{15}{subsubsection.5.1.6.5}
+\contentsline {subsubsection}{\numberline {5.1.6.6}R}{15}{subsubsection.5.1.6.6}
+\contentsline {subsubsection}{\numberline {5.1.6.7}Real}{15}{subsubsection.5.1.6.7}
+\contentsline {subsubsection}{\numberline {5.1.6.8}Theta}{15}{subsubsection.5.1.6.8}
+\contentsline {chapter}{\numberline {6}File Documentation}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Number/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex.cs File Reference}{17}{section.6.1}
+\contentsline {section}{\numberline {6.2}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Number/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Complex\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Math.cs File Reference}{17}{section.6.2}

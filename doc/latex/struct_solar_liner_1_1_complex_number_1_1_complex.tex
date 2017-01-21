@@ -1,0 +1,530 @@
+\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex}{}\section{Solar\+Liner.\+Complex\+Number.\+Complex Struct Reference}
+\label{struct_solar_liner_1_1_complex_number_1_1_complex}\index{Solar\+Liner.\+Complex\+Number.\+Complex@{Solar\+Liner.\+Complex\+Number.\+Complex}}
+
+
+Class handling complex numbers.  
+
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7d}{Complex\+Style} \{ \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7daadf62a9e4cc8426fba802a7e46cb1260}{Complex\+Style.\+T\+R\+I\+G\+O\+N\+O\+M\+E\+T\+R\+IC}, 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7dac02304094f2866a43251b12946a9a21b}{Complex\+Style.\+C\+A\+R\+T\+E\+S\+I\+AN}, 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7da7fc67f9f99bcdc7656908ef20801d05b}{Complex\+Style.\+C\+O\+M\+P\+O\+N\+E\+NT}, 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7da5fed0d8494ac21e60020e3f2c1e394e4}{Complex\+Style.\+P\+H\+A\+S\+OR}
+ \}\begin{DoxyCompactList}\small\item\em Enumerates the different kinds of string output used in \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a14ea2f3707b23006729eeac62484a556}{To\+String()}. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a6835a31687ea342cd7f9ae7d8a89521e}{Complex} (double a, double b, bool is\+Trigonometric=false)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} struct. \end{DoxyCompactList}\item 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a37396120a491752ddd448d539d45ecdf}{Complex} (double theta)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} struct. \end{DoxyCompactList}\item 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a543d3bb037a556218a36ad824a142cdd}{Complex} (PointF point)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} struct. \end{DoxyCompactList}\item 
+void \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a6b015a8806a81034a8d38b02a94509ba}{Set\+R\+Theta} (double r, double theta)
+\begin{DoxyCompactList}\small\item\em Sets the trigonometric components of the complex number \end{DoxyCompactList}\item 
+override string \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a14ea2f3707b23006729eeac62484a556}{To\+String} ()
+\begin{DoxyCompactList}\small\item\em Returns a System.\+String that represents the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} using the Cartesian form. \end{DoxyCompactList}\item 
+string \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_ad3f6a21e5fa66904f215fd33199e300c}{To\+String} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7d}{Complex\+Style} Style)
+\begin{DoxyCompactList}\small\item\em Returns a System.\+String that represents the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} using the given style. \end{DoxyCompactList}\item 
+PointF \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_aba9e4abced63f3f804858034dff8fe23}{To\+Point} ()
+\begin{DoxyCompactList}\small\item\em Converts the current complex number into a System.\+Drawing.\+PointF. \end{DoxyCompactList}\item 
+override bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a0f67f2bc090ffa2bb7d74fa100d8eb4e}{Equals} (object obj)
+\begin{DoxyCompactList}\small\item\em Determines whether the specified System.\+Object is equal to the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex}. \end{DoxyCompactList}\item 
+override int \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_ab1400a8106ca3440f8f083b58d970fcc}{Get\+Hash\+Code} ()
+\begin{DoxyCompactList}\small\item\em Serves as a hash function for a \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static implicit \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a3233893354641096afaf56b505cd94bc}{operator Complex} (double value)
+\item 
+static implicit \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a0b7239f1559e0156ade91dfa90487d8f}{operator double} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} val)
+\item 
+static implicit \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_ac9a270e2f15e5a2eab990ce4987dd551}{operator int} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} val)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_aec7e32372bc7c963f0eb72f0c71b5ae2}{operator+} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a7aca3c22ecd22962feac217688ff964a}{operator+} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, double b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_aa0e735d465627ccb7280a42d79b23874}{operator-\/} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a37f65c6d6b97e364d5db0bb9b0e2770b}{operator-\/} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, double b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a21a100bf42dfc7ce28eb8c852219dd26}{operator-\/} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_af1760dbc09515c02d0c983c018932ae7}{operator$\ast$} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, double b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a48ff0cc3bb5aa59a0f2117184acb97cb}{operator$\ast$} (double a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a44f2df500bbd88eb913d243722b77e87}{operator$\ast$} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_aaac60d0c4126ca03bf504469e269097f}{operator/} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_abf128ab947c44172e2c3636d2284b668}{operator/} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, double b)
+\item 
+static \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a070461ea1aecd45d45302f787bf21b70}{operator/} (double a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a7223aad6744b3df370649287a0826749}{operator==} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a03e9301f63a4a769f516e24da8688c59}{operator==} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, object b)
+\item 
+static bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a85a0a900f8faced93c490bfb6f7dd74d}{operator==} (object a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a732461b2340bbb04857ee34e8c3c4eca}{operator!=} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\item 
+static bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_afbf0c3440c98b50a3df065666f28762d}{operator!=} (\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} a, object b)
+\item 
+static bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a3431cb682dda6d05dbb02fd1c8b87576}{operator!=} (object a, \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} b)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static readonly \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_acc1fad2ea19dcd2fae4cd17279edb99d}{I} = new \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex}(0, 1)
+\begin{DoxyCompactList}\small\item\em The Imaginary number i. \end{DoxyCompactList}\item 
+static readonly \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a2e7f3499954b312a4676b6b16738f53e}{Epsilon} = new \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex}(double.\+Epsilon, double.\+Epsilon)
+\begin{DoxyCompactList}\small\item\em Smallest positive complex number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a00d6891103d4daf3e5d64e20205f202a}{Real}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the real part of the complex number. \end{DoxyCompactList}\item 
+double \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a2298837eb7f6533771873169b38a4067}{Imaginary}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the imaginary part of the complex number. \end{DoxyCompactList}\item 
+double \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_ac522bdd16f688cb00d0dae9d8ec390ff}{R}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the radius, or length, or magnitude, of the complex number. \end{DoxyCompactList}\item 
+double \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a1cfc2066453f861b4a04ba69a2f1ad39}{Theta}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the angle of the complex number. \end{DoxyCompactList}\item 
+bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a6d8e0e3f6ef11495a52ca1e242dd2b81}{Is\+Imaginary}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns whether the complex number is imaginary or not (no real part). \end{DoxyCompactList}\item 
+bool \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_aea768996f77db530fbf4eeedb5395d1d}{Is\+Real}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns whether the complex number is real or not (no imaginary part). \end{DoxyCompactList}\item 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a17a3e752294b9155259c017f85dc029c}{Conjugate}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns the complex conjugate (a-\/bi). \end{DoxyCompactList}\item 
+\hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Complex} \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a1aee91d60a830dd7c455e85a3976b622}{Normalized}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns the normalized complex number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class handling complex numbers. 
+
+
+
+\subsection{Member Enumeration Documentation}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Complex\+Style@{Complex\+Style}}
+\index{Complex\+Style@{Complex\+Style}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Complex\+Style}{ComplexStyle}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Solar\+Liner.\+Complex\+Number.\+Complex.\+Complex\+Style}\hspace{0.3cm}{\ttfamily [strong]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7d}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7d}
+
+
+Enumerates the different kinds of string output used in \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex_a14ea2f3707b23006729eeac62484a556}{To\+String()}. 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{T\+R\+I\+G\+O\+N\+O\+M\+E\+T\+R\+IC@{T\+R\+I\+G\+O\+N\+O\+M\+E\+T\+R\+IC}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!T\+R\+I\+G\+O\+N\+O\+M\+E\+T\+R\+IC@{T\+R\+I\+G\+O\+N\+O\+M\+E\+T\+R\+IC}}\item[{\em 
+T\+R\+I\+G\+O\+N\+O\+M\+E\+T\+R\+IC\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7daadf62a9e4cc8426fba802a7e46cb1260}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7daadf62a9e4cc8426fba802a7e46cb1260}
+}]Trigonometric form (r$\ast$e$^\wedge$\{i$\ast$theta$\ast$pi\}). \index{C\+A\+R\+T\+E\+S\+I\+AN@{C\+A\+R\+T\+E\+S\+I\+AN}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!C\+A\+R\+T\+E\+S\+I\+AN@{C\+A\+R\+T\+E\+S\+I\+AN}}\item[{\em 
+C\+A\+R\+T\+E\+S\+I\+AN\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7dac02304094f2866a43251b12946a9a21b}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7dac02304094f2866a43251b12946a9a21b}
+}]Cartesian form (a+bi). \index{C\+O\+M\+P\+O\+N\+E\+NT@{C\+O\+M\+P\+O\+N\+E\+NT}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!C\+O\+M\+P\+O\+N\+E\+NT@{C\+O\+M\+P\+O\+N\+E\+NT}}\item[{\em 
+C\+O\+M\+P\+O\+N\+E\+NT\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7da7fc67f9f99bcdc7656908ef20801d05b}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7da7fc67f9f99bcdc7656908ef20801d05b}
+}]Component form (\mbox{[}r, theta\mbox{]}). \index{P\+H\+A\+S\+OR@{P\+H\+A\+S\+OR}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!P\+H\+A\+S\+OR@{P\+H\+A\+S\+OR}}\item[{\em 
+P\+H\+A\+S\+OR\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7da5fed0d8494ac21e60020e3f2c1e394e4}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_af40acfb18b45366e7f1e66f752b8dc7da5fed0d8494ac21e60020e3f2c1e394e4}
+}]Prints complex number as a sum of sin and cos functions (r$\ast$(cos(theta)+ i$\ast$sin(theta))). \end{description}
+\end{Desc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Complex(double a, double b, bool is\+Trigonometric=false)}{Complex(double a, double b, bool isTrigonometric=false)}}]{\setlength{\rightskip}{0pt plus 5cm}Solar\+Liner.\+Complex\+Number.\+Complex.\+Complex (
+\begin{DoxyParamCaption}
+\item[{double}]{a, }
+\item[{double}]{b, }
+\item[{bool}]{is\+Trigonometric = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a6835a31687ea342cd7f9ae7d8a89521e}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a6835a31687ea342cd7f9ae7d8a89521e}
+
+
+Initializes a new instance of the \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The real or radius component.\\
+\hline
+{\em b} & The imaginary or angle component.\\
+\hline
+{\em is\+Trigonometric} & If set to {\ttfamily true}, a and b are trigonometric inputs.\\
+\hline
+\end{DoxyParams}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Complex(double theta)}{Complex(double theta)}}]{\setlength{\rightskip}{0pt plus 5cm}Solar\+Liner.\+Complex\+Number.\+Complex.\+Complex (
+\begin{DoxyParamCaption}
+\item[{double}]{theta}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a37396120a491752ddd448d539d45ecdf}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a37396120a491752ddd448d539d45ecdf}
+
+
+Initializes a new instance of the \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em theta} & Trigonimetric angle component.\\
+\hline
+\end{DoxyParams}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Complex(\+Point\+F point)}{Complex(PointF point)}}]{\setlength{\rightskip}{0pt plus 5cm}Solar\+Liner.\+Complex\+Number.\+Complex.\+Complex (
+\begin{DoxyParamCaption}
+\item[{PointF}]{point}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a543d3bb037a556218a36ad824a142cdd}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a543d3bb037a556218a36ad824a142cdd}
+
+
+Initializes a new instance of the \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & Point to convert to a complex.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Equals@{Equals}}
+\index{Equals@{Equals}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Equals(object obj)}{Equals(object obj)}}]{\setlength{\rightskip}{0pt plus 5cm}override bool Solar\+Liner.\+Complex\+Number.\+Complex.\+Equals (
+\begin{DoxyParamCaption}
+\item[{object}]{obj}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a0f67f2bc090ffa2bb7d74fa100d8eb4e}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a0f67f2bc090ffa2bb7d74fa100d8eb4e}
+
+
+Determines whether the specified System.\+Object is equal to the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & The System.\+Object to compare with the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} if the specified System.\+Object is equal to the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex}; otherwise, {\ttfamily false}.
+\end{DoxyReturn}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Get\+Hash\+Code@{Get\+Hash\+Code}}
+\index{Get\+Hash\+Code@{Get\+Hash\+Code}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Get\+Hash\+Code()}{GetHashCode()}}]{\setlength{\rightskip}{0pt plus 5cm}override int Solar\+Liner.\+Complex\+Number.\+Complex.\+Get\+Hash\+Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_ab1400a8106ca3440f8f083b58d970fcc}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_ab1400a8106ca3440f8f083b58d970fcc}
+
+
+Serves as a hash function for a \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} object. 
+
+\begin{DoxyReturn}{Returns}
+A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a hash table.
+\end{DoxyReturn}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator Complex@{operator Complex}}
+\index{operator Complex@{operator Complex}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator Complex(double value)}{operator Complex(double value)}}]{\setlength{\rightskip}{0pt plus 5cm}static implicit Solar\+Liner.\+Complex\+Number.\+Complex.\+operator {\bf Complex} (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a3233893354641096afaf56b505cd94bc}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a3233893354641096afaf56b505cd94bc}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator double@{operator double}}
+\index{operator double@{operator double}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator double(\+Complex val)}{operator double(Complex val)}}]{\setlength{\rightskip}{0pt plus 5cm}static implicit Solar\+Liner.\+Complex\+Number.\+Complex.\+operator double (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{val}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a0b7239f1559e0156ade91dfa90487d8f}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a0b7239f1559e0156ade91dfa90487d8f}
+May produce a loss of data when \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} has an imarinary part.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator int@{operator int}}
+\index{operator int@{operator int}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator int(\+Complex val)}{operator int(Complex val)}}]{\setlength{\rightskip}{0pt plus 5cm}static implicit Solar\+Liner.\+Complex\+Number.\+Complex.\+operator int (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{val}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_ac9a270e2f15e5a2eab990ce4987dd551}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_ac9a270e2f15e5a2eab990ce4987dd551}
+May produce a loss of data when \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} has an imarinary part.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator"!=(\+Complex a, Complex b)}{operator!=(Complex a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Solar\+Liner.\+Complex\+Number.\+Complex.\+operator!= (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a732461b2340bbb04857ee34e8c3c4eca}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a732461b2340bbb04857ee34e8c3c4eca}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator"!=(\+Complex a, object b)}{operator!=(Complex a, object b)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Solar\+Liner.\+Complex\+Number.\+Complex.\+operator!= (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{object}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_afbf0c3440c98b50a3df065666f28762d}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_afbf0c3440c98b50a3df065666f28762d}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator"!=(object a, Complex b)}{operator!=(object a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Solar\+Liner.\+Complex\+Number.\+Complex.\+operator!= (
+\begin{DoxyParamCaption}
+\item[{object}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a3431cb682dda6d05dbb02fd1c8b87576}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a3431cb682dda6d05dbb02fd1c8b87576}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator$\ast$(\+Complex a, double b)}{operator*(Complex a, double b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_af1760dbc09515c02d0c983c018932ae7}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_af1760dbc09515c02d0c983c018932ae7}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator$\ast$(double a, Complex b)}{operator*(double a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{double}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a48ff0cc3bb5aa59a0f2117184acb97cb}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a48ff0cc3bb5aa59a0f2117184acb97cb}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator$\ast$(\+Complex a, Complex b)}{operator*(Complex a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a44f2df500bbd88eb913d243722b77e87}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a44f2df500bbd88eb913d243722b77e87}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator+(\+Complex a, Complex b)}{operator+(Complex a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator+ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_aec7e32372bc7c963f0eb72f0c71b5ae2}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_aec7e32372bc7c963f0eb72f0c71b5ae2}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator+(\+Complex a, double b)}{operator+(Complex a, double b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator+ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a7aca3c22ecd22962feac217688ff964a}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a7aca3c22ecd22962feac217688ff964a}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator-\/(\+Complex a)}{operator-(Complex a)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator-\/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_aa0e735d465627ccb7280a42d79b23874}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_aa0e735d465627ccb7280a42d79b23874}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator-\/(\+Complex a, double b)}{operator-(Complex a, double b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator-\/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a37f65c6d6b97e364d5db0bb9b0e2770b}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a37f65c6d6b97e364d5db0bb9b0e2770b}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator-\/(\+Complex a, Complex b)}{operator-(Complex a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator-\/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a21a100bf42dfc7ce28eb8c852219dd26}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a21a100bf42dfc7ce28eb8c852219dd26}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator/@{operator/}}
+\index{operator/@{operator/}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator/(\+Complex a, Complex b)}{operator/(Complex a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_aaac60d0c4126ca03bf504469e269097f}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_aaac60d0c4126ca03bf504469e269097f}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator/@{operator/}}
+\index{operator/@{operator/}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator/(\+Complex a, double b)}{operator/(Complex a, double b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{double}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_abf128ab947c44172e2c3636d2284b668}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_abf128ab947c44172e2c3636d2284b668}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator/@{operator/}}
+\index{operator/@{operator/}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator/(double a, Complex b)}{operator/(double a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+operator/ (
+\begin{DoxyParamCaption}
+\item[{double}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a070461ea1aecd45d45302f787bf21b70}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a070461ea1aecd45d45302f787bf21b70}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator==@{operator==}}
+\index{operator==@{operator==}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator==(\+Complex a, Complex b)}{operator==(Complex a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Solar\+Liner.\+Complex\+Number.\+Complex.\+operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a7223aad6744b3df370649287a0826749}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a7223aad6744b3df370649287a0826749}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator==@{operator==}}
+\index{operator==@{operator==}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator==(\+Complex a, object b)}{operator==(Complex a, object b)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Solar\+Liner.\+Complex\+Number.\+Complex.\+operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex}}]{a, }
+\item[{object}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a03e9301f63a4a769f516e24da8688c59}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a03e9301f63a4a769f516e24da8688c59}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!operator==@{operator==}}
+\index{operator==@{operator==}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{operator==(object a, Complex b)}{operator==(object a, Complex b)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Solar\+Liner.\+Complex\+Number.\+Complex.\+operator== (
+\begin{DoxyParamCaption}
+\item[{object}]{a, }
+\item[{{\bf Complex}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a85a0a900f8faced93c490bfb6f7dd74d}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a85a0a900f8faced93c490bfb6f7dd74d}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Set\+R\+Theta@{Set\+R\+Theta}}
+\index{Set\+R\+Theta@{Set\+R\+Theta}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Set\+R\+Theta(double r, double theta)}{SetRTheta(double r, double theta)}}]{\setlength{\rightskip}{0pt plus 5cm}void Solar\+Liner.\+Complex\+Number.\+Complex.\+Set\+R\+Theta (
+\begin{DoxyParamCaption}
+\item[{double}]{r, }
+\item[{double}]{theta}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a6b015a8806a81034a8d38b02a94509ba}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a6b015a8806a81034a8d38b02a94509ba}
+
+
+Sets the trigonometric components of the complex number 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & The radius component.\\
+\hline
+{\em theta} & The angle component.\\
+\hline
+\end{DoxyParams}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!To\+Point@{To\+Point}}
+\index{To\+Point@{To\+Point}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{To\+Point()}{ToPoint()}}]{\setlength{\rightskip}{0pt plus 5cm}PointF Solar\+Liner.\+Complex\+Number.\+Complex.\+To\+Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_aba9e4abced63f3f804858034dff8fe23}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_aba9e4abced63f3f804858034dff8fe23}
+
+
+Converts the current complex number into a System.\+Drawing.\+PointF. 
+
+\begin{DoxyReturn}{Returns}
+A new System.\+Drawing.\+PointF corresponding to the complex number.
+\end{DoxyReturn}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{To\+String()}{ToString()}}]{\setlength{\rightskip}{0pt plus 5cm}override string Solar\+Liner.\+Complex\+Number.\+Complex.\+To\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a14ea2f3707b23006729eeac62484a556}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a14ea2f3707b23006729eeac62484a556}
+
+
+Returns a System.\+String that represents the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} using the Cartesian form. 
+
+\begin{DoxyReturn}{Returns}
+A System.\+String that represents the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex}.
+\end{DoxyReturn}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{To\+String(\+Complex\+Style Style)}{ToString(ComplexStyle Style)}}]{\setlength{\rightskip}{0pt plus 5cm}string Solar\+Liner.\+Complex\+Number.\+Complex.\+To\+String (
+\begin{DoxyParamCaption}
+\item[{{\bf Complex\+Style}}]{Style}
+\end{DoxyParamCaption}
+)}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_ad3f6a21e5fa66904f215fd33199e300c}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_ad3f6a21e5fa66904f215fd33199e300c}
+
+
+Returns a System.\+String that represents the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex} using the given style. 
+
+\begin{DoxyReturn}{Returns}
+A System.\+String that represents the current \hyperlink{struct_solar_liner_1_1_complex_number_1_1_complex}{Solar\+Liner.\+Complex\+Number.\+Complex}.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Style} & Chosen complex styling.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Epsilon@{Epsilon}}
+\index{Epsilon@{Epsilon}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Epsilon}{Epsilon}}]{\setlength{\rightskip}{0pt plus 5cm}readonly {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+Epsilon = new {\bf Complex}(double.\+Epsilon, double.\+Epsilon)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a2e7f3499954b312a4676b6b16738f53e}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a2e7f3499954b312a4676b6b16738f53e}
+
+
+Smallest positive complex number. 
+
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!I@{I}}
+\index{I@{I}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{I}{I}}]{\setlength{\rightskip}{0pt plus 5cm}readonly {\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+I = new {\bf Complex}(0, 1)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_acc1fad2ea19dcd2fae4cd17279edb99d}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_acc1fad2ea19dcd2fae4cd17279edb99d}
+
+
+The Imaginary number i. 
+
+
+
+\subsection{Property Documentation}
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Conjugate@{Conjugate}}
+\index{Conjugate@{Conjugate}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Conjugate}{Conjugate}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+Conjugate\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a17a3e752294b9155259c017f85dc029c}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a17a3e752294b9155259c017f85dc029c}
+
+
+Returns the complex conjugate (a-\/bi). 
+
+The complex conjugate.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Imaginary@{Imaginary}}
+\index{Imaginary@{Imaginary}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Imaginary}{Imaginary}}]{\setlength{\rightskip}{0pt plus 5cm}double Solar\+Liner.\+Complex\+Number.\+Complex.\+Imaginary\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a2298837eb7f6533771873169b38a4067}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a2298837eb7f6533771873169b38a4067}
+
+
+Gets or sets the imaginary part of the complex number. 
+
+The imaginary part.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Is\+Imaginary@{Is\+Imaginary}}
+\index{Is\+Imaginary@{Is\+Imaginary}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Is\+Imaginary}{IsImaginary}}]{\setlength{\rightskip}{0pt plus 5cm}bool Solar\+Liner.\+Complex\+Number.\+Complex.\+Is\+Imaginary\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a6d8e0e3f6ef11495a52ca1e242dd2b81}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a6d8e0e3f6ef11495a52ca1e242dd2b81}
+
+
+Returns whether the complex number is imaginary or not (no real part). 
+
+{\ttfamily true} if this instance is imaginary; otherwise, {\ttfamily false}.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Is\+Real@{Is\+Real}}
+\index{Is\+Real@{Is\+Real}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Is\+Real}{IsReal}}]{\setlength{\rightskip}{0pt plus 5cm}bool Solar\+Liner.\+Complex\+Number.\+Complex.\+Is\+Real\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_aea768996f77db530fbf4eeedb5395d1d}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_aea768996f77db530fbf4eeedb5395d1d}
+
+
+Returns whether the complex number is real or not (no imaginary part). 
+
+{\ttfamily true} if this instance is real; otherwise, {\ttfamily false}.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Normalized@{Normalized}}
+\index{Normalized@{Normalized}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Normalized}{Normalized}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Complex} Solar\+Liner.\+Complex\+Number.\+Complex.\+Normalized\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a1aee91d60a830dd7c455e85a3976b622}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a1aee91d60a830dd7c455e85a3976b622}
+
+
+Returns the normalized complex number. 
+
+The normalized complex number with radius=1.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!R@{R}}
+\index{R@{R}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{R}{R}}]{\setlength{\rightskip}{0pt plus 5cm}double Solar\+Liner.\+Complex\+Number.\+Complex.\+R\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_ac522bdd16f688cb00d0dae9d8ec390ff}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_ac522bdd16f688cb00d0dae9d8ec390ff}
+
+
+Gets the radius, or length, or magnitude, of the complex number. 
+
+\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Real@{Real}}
+\index{Real@{Real}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Real}{Real}}]{\setlength{\rightskip}{0pt plus 5cm}double Solar\+Liner.\+Complex\+Number.\+Complex.\+Real\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a00d6891103d4daf3e5d64e20205f202a}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a00d6891103d4daf3e5d64e20205f202a}
+
+
+Gets or sets the real part of the complex number. 
+
+The real part.\index{Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}!Theta@{Theta}}
+\index{Theta@{Theta}!Solar\+Liner\+::\+Complex\+Number\+::\+Complex@{Solar\+Liner\+::\+Complex\+Number\+::\+Complex}}
+\subsubsection[{\texorpdfstring{Theta}{Theta}}]{\setlength{\rightskip}{0pt plus 5cm}double Solar\+Liner.\+Complex\+Number.\+Complex.\+Theta\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{struct_solar_liner_1_1_complex_number_1_1_complex_a1cfc2066453f861b4a04ba69a2f1ad39}{}\label{struct_solar_liner_1_1_complex_number_1_1_complex_a1cfc2066453f861b4a04ba69a2f1ad39}
+
+
+Gets the angle of the complex number. 
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Complex\+Number/\hyperlink{_complex_8cs}{Complex.\+cs}\end{DoxyCompactItemize}
